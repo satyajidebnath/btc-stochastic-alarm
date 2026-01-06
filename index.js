@@ -5,7 +5,7 @@ const SYMBOL = "BTCUSDT";
 const INTERVAL = "5m";
 const STOCH_PERIOD = 14;
 const K_SMOOTH = 3;
-const STOCH_LIMIT = 15;
+const STOCH_LIMIT = 100;
 
 // Telegram (SET THESE AS ENV VARS)
 const BOT_TOKEN = process.env.BOT_TOKEN;
