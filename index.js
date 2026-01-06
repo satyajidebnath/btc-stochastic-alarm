@@ -6,7 +6,7 @@ const INTERVAL = "5m";
 const STOCH_PERIOD = 14;
 const K_SMOOTH = 3;
 const D_SMOOTH = 3;
-const STOCH_LIMIT = 15;
+const STOCH_LIMIT = 100;
 
 // Telegram
 const BOT_TOKEN = process.env.BOT_TOKEN;
