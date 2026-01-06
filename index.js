@@ -15,7 +15,7 @@ const CHAT_ID = process.env.CHAT_ID;
 // ====================
 
 async function getKlines() {
-  const url = https://api.binance.com/api/v3/klines?symbol=${SYMBOL}&interval=${INTERVAL}&limit=50;
+  const url = "https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1h&limit=50";
   const res = await fetch(url);
   return res.json();
 }
